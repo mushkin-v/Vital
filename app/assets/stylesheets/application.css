@@ -20,7 +20,6 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
-  text-transform: lowercase;
 }
 
 .container {
@@ -59,76 +58,6 @@
 .header a:hover {
   color: #c91717;
   text-decoration: none;   
-}
-
-/* ALBUMS */
-
-.album-info {
-  padding: 12px 24px 24px;
-  background-color: #F1f2f3;
-}
-
-.album-info h2 {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: bold;
-  margin: 0;
-}
-
-.album-info p {
-  color: #000;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.item {
-  margin: 0;  
-  padding: 0;
-}
-
-.item:hover a {
-  color: #c91717;
-  text-decoration: none;
-}
-
-.img-container {
-  height: 300px;
-  overflow: hidden;
-  width: 100%;
-}
-
-.photo {
-  margin: 0 0 80px;   
-}
-.photo img {
-  width: 100%;
-}
-
-
-
-
-/* GALLERY VIEW */
-
-.photos h1 {
-  font-size: 24px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: bold;
-  margin: 10px 0 20px;
-}
-
-.photo-info {
-  padding: 12px 24px 24px;
-  background-color: #000;
-  color: #fff;
-  opacity: 0.7;
-}
-
-.photo-info p {
-  margin: 0;
 }
 
 /* FORM PAGES */
