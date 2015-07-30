@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
 
   def new
+    @msg = params[:msg]
   end
 
   def create
@@ -9,13 +10,13 @@ class SessionsController < ApplicationController
       session[:user_id] = @user.id
       redirect_to '/index'
     else
-      redirect_to 'login'
+      redirect_to(:action => 'new', :msg => 'Wrong credentials!')
     end
   end
 
   def destroy
     session[:user_id] = nil
-    redirect_to '/index'
+    redirect_to '/login'
   end
 
 end
