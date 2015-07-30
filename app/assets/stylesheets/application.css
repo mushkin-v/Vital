@@ -30,8 +30,20 @@
 /* HEADER */
 
 .pull-right {
-  position: inline;
-  margin: 20px 20px 0 0;
+  margin: 0;
+  padding: 20px;
+  color: whitesmoke;
+  background: #c91717;
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  height: 60px;
+}
+
+.mainbody {
+  margin-top: 60px;
+  padding: 50px;
+  font-size: 50px;
 }
 
 .header {
@@ -50,13 +62,13 @@
   width: 80px;
 }
 .header a {
-  color: #000;
-  font-size: 20px;  
+  color: whitesmoke;
+  font-size: 20px;
   text-decoration: none; 
 }
 
 .header a:hover {
-  color: #c91717;
+  color: #730E15;
   text-decoration: none;   
 }
 
@@ -91,46 +103,4 @@ input[type=password] {
   padding: 10px 20px;
   border: 0;
   margin-top: 6px;
-}
-  
-/*  RESPONSIVE */
-
-@media screen and (max-width: 992px) {
-  .img-container img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 512px) {
-  .pull-right {
-    background-color: #f1f2f2;
-    position: relative;
-    margin: 0;
-    width: 100%;
-  }
-
-  .pull-right ul {
-    margin: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-before: 0;
-    -webkit-padding-start: 0;
-  }
-
-  .pull-right ul li {
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 20px 0;
-    text-align: center;
-    width: 50%;
-  }
-
-  .pull-right ul li a {
-    display: block;
-    width: 100%;
-  }
-
-  .img-container {
-    height: 200px;
-  }
 }
