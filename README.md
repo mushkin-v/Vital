@@ -1,3 +1,3 @@
 VITAL productivity
 
-by Mushkin V.
+by Mushkin V. 2015
