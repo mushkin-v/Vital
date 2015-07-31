@@ -28,6 +28,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'pg'
 gem 'pg_search'
+gem 'rails_12factor'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
